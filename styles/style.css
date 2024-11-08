@@ -276,19 +276,18 @@ ol {
 
 
 .search-form__pseudo-checkbox {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
   background-color: transparent;
-  padding: 4px;
   cursor: pointer;
 }
 
 .search-form__pseudo-checkbox::before {
   content: "";
-  position: absolute;
-  inset: 1px;
   width: 15px;
   height: 15px;
   background-color: transparent;
