@@ -20,3 +20,5 @@ styles/
     error.css
     preloader.css
     style.css
+
+https://github.com/Tigran-Mhitaryan/posmotri_v_okno
