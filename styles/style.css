@@ -175,12 +175,8 @@ ol {
   inset: 0;
 }
 
-.content__list-item {
-  margin-bottom: 35px;
-}
-
-.content__list-item:nth-last-child(2) {
-  margin-bottom: 0;
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 
@@ -279,9 +275,7 @@ ol {
   outline: 1px solid #ffffff;
 }
 
-.search-form__label:focus-visible {
-  outline: 1px solid #ffffff;
-}
+
 
 
 
@@ -348,7 +342,6 @@ input[type="checkbox"]:active + .search-form__pseudo-checkbox::before {
 .more-button {
   width: 100%;
   padding: 6px 0px;
-  margin-top: 30px;
 }
 
 .button:active {
